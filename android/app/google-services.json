@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "765545367285",
+    "project_id": "semesterarbeit-soe-mobile",
+    "storage_bucket": "semesterarbeit-soe-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765545367285:android:76330e8a31caafce95a7bc",
+        "android_client_info": {
+          "package_name": "com.example.bmi_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765545367285-lq1m7d8pcn849edcn1hrgao07m3bh5h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC155gesdQuiH1UzGAbvDGD2FMd-dAhLmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765545367285-lq1m7d8pcn849edcn1hrgao07m3bh5h4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "765545367285-ko3q2goonu4kt7v5jtps1cliiif2vqg5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bmi4"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
