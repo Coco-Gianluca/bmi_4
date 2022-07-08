@@ -1,4 +1,4 @@
-import 'package:bmi_4/page/check_page.dart';
+import 'package:bmi_4/Login/check_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -23,3 +23,7 @@ class MyApp extends StatelessWidget{
     ); //MaterialApp
   }
 }
+
+
+
+

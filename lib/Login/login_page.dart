@@ -5,7 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+  final VoidCallback showRegisterPage;
+  const LoginPage({Key? key,required this.showRegisterPage}) : super(key: key);
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -96,6 +97,7 @@ class LoginPage extends StatefulWidget {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 25.0),
                     child: TextField(
+                      obscureText: true,
                       controller: _passwordController,
                       decoration: InputDecoration(
                         enabledBorder: OutlineInputBorder(
@@ -152,12 +154,15 @@ class LoginPage extends StatefulWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  Text(
-                      ' Register Now!',
-                      style: TextStyle(
-                        color: Colors.blue,
-                        fontWeight: FontWeight.bold,
-                      ),
+                  GestureDetector(
+                    onTap: widget.showRegisterPage,
+                    child: Text(
+                        ' Register Now!',
+                        style: TextStyle(
+                          color: Colors.blue,
+                          fontWeight: FontWeight.bold,
+                        ),
+                    ),
                   ),
                 ],
               ),
